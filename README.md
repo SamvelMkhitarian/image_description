@@ -21,20 +21,6 @@ git clone https://github.com/SamvelMkhitarian/image_description.git
 cd image_description
 ```
 
-Создание виртуального окружения (venv):
-```bash
-python3 -m venv venv
-```
-Активация виртуального окружения (venv):
-
-Linux / Mac:
-```bash
-source venv/bin/activate
-```
-Windows:
-```bash
-venv\Scripts\activate
-```
 Установка зависимостей:
 
 Установка Poetry (если не установлен)
