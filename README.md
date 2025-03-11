@@ -36,8 +36,23 @@ Windows:
 venv\Scripts\activate
 ```
 Установка зависимостей:
+
+# Установка Poetry (если не установлен)
 ```bash
-pip install -r requirements.txt
+curl -sSL https://install.python-poetry.org | python3 -
+```
+# Клонирование репозитория
+```bash
+git clone https://github.com/SamvelMkhitarian/image_description.git
+cd image_description
+```
+# Установка зависимостей через Poetry
+```bash
+poetry install
+```
+# Активация виртуального окружения
+```bash
+poetry shell
 ```
 Настройка переменных окружения:
 
