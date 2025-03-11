@@ -37,20 +37,20 @@ venv\Scripts\activate
 ```
 Установка зависимостей:
 
-# Установка Poetry (если не установлен)
+Установка Poetry (если не установлен)
 ```bash
 curl -sSL https://install.python-poetry.org | python3 -
 ```
-# Клонирование репозитория
+Клонирование репозитория
 ```bash
 git clone https://github.com/SamvelMkhitarian/image_description.git
 cd image_description
 ```
-# Установка зависимостей через Poetry
+Установка зависимостей через Poetry
 ```bash
 poetry install
 ```
-# Активация виртуального окружения
+Активация виртуального окружения
 ```bash
 poetry shell
 ```
