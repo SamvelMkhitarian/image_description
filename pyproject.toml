@@ -3,7 +3,7 @@ name = "image-description"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "samvel.mhitaryan",email = "samvel.mhitaryan@mstroy.tech"}
+    {name = "Samvel Mkhitarian",email = "08samo@gmail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.9"
