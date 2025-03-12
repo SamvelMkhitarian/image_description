@@ -1,11 +1,11 @@
 import io
 from datetime import datetime
 
-from database import AsyncSessionLocal
+from app.database import AsyncSessionLocal
 from fastapi import APIRouter, File, HTTPException, UploadFile
 from fastapi.responses import JSONResponse
-from generate_caption import generate_caption
-from models import CaptionHistory
+from app.generate_caption import generate_caption
+from app.models import CaptionHistory
 from PIL import Image
 from sqlalchemy.future import select
 

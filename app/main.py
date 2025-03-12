@@ -1,10 +1,10 @@
 from contextlib import asynccontextmanager
 
 import uvicorn
-from database import engine
-from endpoints import router as endpoint_router
+from app.database import engine
+from app.endpoints import router as endpoint_router
 from fastapi import FastAPI
-from models import Base
+from app.models import Base
 
 
 async def create_tables():

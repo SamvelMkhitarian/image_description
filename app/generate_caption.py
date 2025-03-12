@@ -2,7 +2,7 @@ import asyncio
 
 import torch
 from PIL import Image
-from settings import MODEL_NAME
+from app.settings import MODEL_NAME
 from transformers import (AutoTokenizer, VisionEncoderDecoderModel,
                           ViTImageProcessor)
 

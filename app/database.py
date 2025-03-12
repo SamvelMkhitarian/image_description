@@ -1,5 +1,5 @@
-from settings import (POSTGRES_DB, POSTGRES_HOST, POSTGRES_PASSWORD,
-                      POSTGRES_PORT, POSTGRES_USER)
+from app.settings import (POSTGRES_DB, POSTGRES_HOST, POSTGRES_PASSWORD,
+                          POSTGRES_PORT, POSTGRES_USER)
 from sqlalchemy.ext.asyncio import async_sessionmaker, create_async_engine
 from sqlalchemy.ext.declarative import declarative_base
 
