@@ -1,9 +1,6 @@
-from app.settings import (POSTGRES_DB, POSTGRES_HOST, POSTGRES_PASSWORD,
-                          POSTGRES_PORT, POSTGRES_USER)
+from app.settings import DATABASE_URL
 from sqlalchemy.ext.asyncio import async_sessionmaker, create_async_engine
 from sqlalchemy.ext.declarative import declarative_base
-
-DATABASE_URL = f'postgresql+asyncpg://{POSTGRES_USER}:{POSTGRES_PASSWORD}@{POSTGRES_HOST}:{POSTGRES_PORT}/{POSTGRES_DB}'
 
 engine = create_async_engine(DATABASE_URL)
 AsyncSessionLocal = async_sessionmaker(
